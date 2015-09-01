@@ -1,0 +1,39 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.mainTopBar{
+	height: 60px;
+	background-color: #1975FF;
+}
+.logo_mtb{
+	width: 20%;
+	padding:10px 40px;
+	font-size: 30px;
+	float: left;
+}
+
+.logo_mtb >a {
+  color: #520029;
+}
+.rightSide_mtb{
+	font-size: 20px;
+	width: 40%;
+	padding:15px 40px;
+	margin-left: 60%;
+}
+.login{
+	color: lightblue;
+	padding-right: 25px;
+}
+
+.signup{
+	color: skyblue;
+}
