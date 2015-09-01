@@ -79,6 +79,7 @@ body{
 .techJoinBox>p{
 	font-size: 24px;
 	font-weight: bold;
+	background-color: #F07746;
 	color:#000066;
 	padding-top: 2%;
 	padding-left: 2%;
@@ -101,7 +102,10 @@ body{
 
 
 .midSection { 
-	background-color: green;
+	
+	background-image: url("job.jpg");
+	background-color: #A3D1FF;
+
 	padding: 5px;
 	height: 400px;
 
@@ -110,27 +114,75 @@ body{
 
 .leftSide{
 	float: left;
-	width: 60%;
+	width: 70%;
+	margin: 5px;
+	padding: 5px;
 }
 
+.leftSide h2{
+	color: #000066;
+}
+
+
+#wel1{
+	border: 1px solid #F07746;
+	background-color: white;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 
 .rightSide{
 	
-	background-color: skyblue;
-	width: 40%;
-	margin-left: 60%;
-	height: 200px;
+	background-color: #E5E5D8;
+	width: 30%;
+	margin-left: 70%;
+	height: 385px;
+	margin-top: 20px;
 }
 
-.quz{
-	background-color: skyblue;
-}
 
-.hel {
-	background-color: green;
+.rmenu {
+	background-color: #3191D5;	
+	position: absolute;
+	width: 20%;
 	margin-top: 10px;
+	margin-left: 10px;
+
+
 }
+
+.rmenu h2{
+	color: white;
+	margin-left: 10%;
+}
+
+.rMenuList{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 6%;
+}
+
+.rMenuList ul li{
+	list-style-type:hebrew;
+}
+.rMenuList ul li a{
+	font-size: 24px;
+	padding: 15px;
+	color: #3191D5;
+}
+
+
+
+.downMidPic img{
+	width: 100%;
+	height: 250px;
+}
+
+
+
 
 
 
@@ -144,6 +196,14 @@ body{
 
 .fmenu{
 	background-color: white;
-	width: 20%;
-	margin-left: 100px;
+	width: 50%;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 50px;
+	float: left;
 }
+.fmenu h2{
+	padding: 5px;
+	margin-left: 25px;
+}
+
